@@ -15,7 +15,8 @@ export default {
 }
 </script>
 
-<style lang="scss" type="text/scss" scoped>
+<style lang="scss" type="text/scss">
+  @import './assets/css/common.css';
 .animated {
   animation-duration: .377s;
 }

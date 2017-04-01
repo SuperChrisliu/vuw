@@ -49,55 +49,5 @@
   }
 </script>
 
-<style lang="scss" type="text/scss">
-  .home.post-list {
-    margin: 2em 0;
-    .post-list-item {
-      padding: 1em 0 2em;
-      border-bottom: 1px solid #ddd;
-      &:last-child {
-        border-bottom: 0px;
-      }
-    }
-    .post-content{
-      h2, h3, h4, h5, h6 {
-        &:before {
-          content: '';
-        }
-      }
-      & > ul {
-        list-style: initial;
-      }
-    }
-    .read-more {
-      color: #42b983;
-    }
-  }
-
-  .archive {
-    max-width: 500px;
-    margin: 5em auto;
-    .post-item {
-      padding: 2px 0 0 50px;
-    }
-    .post-time,
-    .post-title-link {
-      font-size: 1rem;
-    }
-    .post-title-link {
-      display: block;
-      margin-left: 125px;
-      color: #42b983;
-      word-break: break-all;
-      &:hover {
-        border-bottom: 0;
-        color: #267B54;
-      }
-    }
-    .post-info {
-      float: left;
-      width: 125px;
-      color: #7f8c8d;
-    }
-  }
+<style lang="scss" type="text/scss" >
 </style>
