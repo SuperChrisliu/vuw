@@ -1,0 +1,142 @@
+.highlight {
+  overflow-x: auto;
+  position: relative;
+  padding: 0;
+  background-color: #f8f8f8;
+  padding: 0.8em 0.8em 0.4em;
+  line-height: 1.1em;
+  border-radius: 2px;
+}
+.highlight table,
+.highlight tr,
+.highlight td {
+  width: 100%;
+  border-collapse: collapse;
+  padding: 0;
+  margin: 0;
+}
+.highlight .gutter {
+  width: 1.5em;
+}
+.highlight .code pre {
+  padding: 1.2em 1.4em;
+  line-height: 1.5em;
+  margin: 0;
+}
+.highlight .code .line {
+  min-height: 1.5em;
+}
+.highlight.html .code:after,
+.highlight.js .code:after,
+.highlight.bash .code:after,
+.highlight.css .code:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #ccc;
+  text-align: right;
+  font-size: 0.75em;
+  padding: 5px 10px 0;
+  line-height: 15px;
+  height: 15px;
+  font-weight: 600;
+}
+.highlight.html .code:after {
+  content: 'HTML';
+}
+.highlight.js .code:after {
+  content: 'JS';
+}
+.highlight.bash .code:after {
+  content: 'Shell';
+}
+.highlight.css .code:after {
+  content: 'CSS';
+}
+#demo,
+.demo {
+  border: 1px solid #eee;
+  border-radius: 2px;
+  padding: 25px 35px;
+  margin-top: 1em;
+  margin-bottom: 40px;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow-x: auto;
+}
+#demo h1,
+.demo h1 {
+  margin: 0 0 0.5em;
+  font-size: 1.8em;
+}
+#demo ul,
+.demo ul,
+#demo ol,
+.demo ol {
+  padding-left: 1.5em;
+  padding-bottom: 0.2em !important;
+}
+#demo ul:first-child,
+.demo ul:first-child,
+#demo ol:first-child,
+.demo ol:first-child {
+  margin-top: 0;
+}
+#demo ul:last-child,
+.demo ul:last-child,
+#demo ol:last-child,
+.demo ol:last-child {
+  margin-bottom: 0;
+}
+#demo li,
+.demo li {
+  color: #34495e;
+}
+#demo li.done,
+.demo li.done {
+  color: #7f8c8d;
+  text-decoration: line-through;
+}
+#demo p,
+.demo p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+#demo p:first-child,
+.demo p:first-child {
+  margin-top: 0;
+}
+#demo p:last-child,
+.demo p:last-child {
+  margin-bottom: 0;
+}
+#demo textarea,
+.demo textarea {
+  width: 100%;
+  resize: vertical;
+}
+ul#demo li,
+ul.demo li {
+  margin-left: 1.5em;
+}
+@media screen and (max-width: 900px) {
+  #demo,
+  .demo {
+    margin-left: 0;
+  }
+}
+.benchmark-table {
+  margin: 0 auto;
+  text-align: center;
+}
+.benchmark-table tbody > tr > th {
+  text-align: right;
+}
+.benchmark-table th,
+.benchmark-table td {
+  padding: 3px 7px;
+}
