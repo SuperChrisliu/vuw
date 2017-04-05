@@ -51,4 +51,11 @@ em {
 }
 p {
   word-spacing: 0.05em;
+  margin: 0 auto;
+}
+.content {
+  position: relative;
+  padding: 2.2em 0;
+  max-width: 800px;
+  margin: 0 auto;
 }

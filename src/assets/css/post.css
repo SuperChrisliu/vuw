@@ -1,9 +1,4 @@
-.content {
-  position: relative;
-  padding: 2.2em 0;
-  max-width: 800px;
-  margin: 0 auto;
-}
+
 @media screen and (max-width: 900px) {
   .highlight pre {
     padding: 1.2em 1em;

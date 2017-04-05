@@ -1,5 +1,5 @@
 <template lang="html">
-    <article class="content guide with-sidebar index-guide">
+    <article class="content">
       <div v-if="currentPost">
         <h1 class="post-title">{{currentPost.title.rendered}}</h1>
         <div class="post-info">{{currentPost.date}}</div>
@@ -52,4 +52,5 @@ export default {
   @import "../../assets/css/post.css";
   @import "../../assets/css/syntax.css";
   @import "../../assets/css/markdown.css";
+
 </style>
