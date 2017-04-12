@@ -1,12 +1,9 @@
 import Vue from 'vue'
-import axios from 'axios'
 import NProgress from 'vue-nprogress'
 import App from './App.vue'
 import router from './routes/index'
 import store from './store'
 
-Vue.prototype.$http = axios
-Vue.axios = axios
 Vue.use(NProgress)
 
 // Enable devtools

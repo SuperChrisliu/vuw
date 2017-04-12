@@ -9,9 +9,6 @@
   height: 40px;
   line-height: 40px;
 }
-#nav .break {
-  display: none;
-}
 #nav li {
   display: inline-block;
   position: relative;

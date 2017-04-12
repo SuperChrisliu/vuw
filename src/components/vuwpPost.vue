@@ -49,8 +49,8 @@ export default {
 </script>
 
 <style lang="css" type="text/css" scoped>
-  @import "../../assets/css/post.css";
-  @import "../../assets/css/syntax.css";
-  @import "../../assets/css/markdown.css";
+  @import "../assets/css/post.css";
+  @import "../assets/css/syntax.css";
+  @import "../assets/css/markdown.css";
 
 </style>

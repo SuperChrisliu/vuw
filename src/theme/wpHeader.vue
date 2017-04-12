@@ -47,5 +47,5 @@ export default {
 </script>
 
 <style lang="css" type="text/css" scoped>
-  @import "../../assets/css/header.css";
+  @import "../assets/css/header.css";
 </style>

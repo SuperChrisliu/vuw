@@ -1,10 +1,10 @@
 <template lang="html">
   <div class="postCard">
-    <div class="post-list-item" v-for="postCard in currentPostCards">
+    <div class="post-list-item" v-bind:class="{ 'post-list-divider' : index + 1==currentPostCards.length? false: true }" v-for="(postCard, index) in currentPostCards">
       <article class="post-block">
-        <div class="">
+        <div>
           <a class="avatar" href="https://medium.com/@youyuxi">
-            <img src="../../assets/av.jpeg" class="" alt="">
+            <img src="../assets/av.jpeg" class="" alt="">
           </a>
           <div class="post-meta">
             <a class="auth" href="">Evan You</a>
@@ -60,7 +60,8 @@
     data () {
       return {
         offset: 0,
-        limit: 10
+        limit: 10,
+        styleTest: false
       }
     },
     methods: {
@@ -82,9 +83,11 @@
     margin: 0 auto;
   }
   .post-list-item {
-    border-bottom: 1px solid rgba(0,0,0,.0785);
     padding-top: 20px;
     padding-bottom: 25px;
+  }
+  .post-list-divider {
+    border-bottom: 1px solid rgba(0,0,0,.0785);
   }
   .avatar {
     display: inline-block;
@@ -127,6 +130,10 @@
   }
   section {
     font-size: 17px;
+    margin-top: 10px;
+  }
+  .postCard footer {
+    margin-top: 10px;
   }
   .padding-top {
     padding-top: 10px;
