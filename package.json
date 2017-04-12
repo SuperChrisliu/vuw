@@ -35,7 +35,6 @@
   "dependencies": {
     "axios": "^0.15.3",
     "font-awesome": "4.7.0",
-    "marked": "^0.3.6",
     "mdi": "^1.8.36",
     "vue": "^2.2.2",
     "vue-cleave": "1.1.1",
@@ -43,8 +42,6 @@
     "vue-nprogress": "0.1.5",
     "vue-peity": "0.5.0",
     "vue-router": "^2.3.0",
-    "vue-scroll": "^2.0.2",
-    "vuetify": "^0.10.4",
     "vuex": "^2.2.1",
     "vuex-router-sync": "^4.1.2"
   },
